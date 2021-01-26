@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#programing{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+}
+#programing img{
+    width: 1030px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#html{
+    background-image: url("img//512px-HTML5_logo_and_wordmark.svg.png");
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    animation-name: html;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    position: absolute;
+    animation-delay: 0.5s;
+    border-radius: 30px;
+}
+#css{
+    background-image: url("img//css3-badge-blue-and-white-css-icon-png-clipart.jpg");
+    width: 120px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    animation-name: css;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    position: absolute;
+    animation-delay: 0.7s; 
+}
+#js{
+    background-image: url("img//download.png");
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 4px;
+    animation-name: js;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    position: absolute;
+    animation-delay: 0.9s;
+    border-radius: 10px;
+
+}
+#php{
+    background-image: url("img//11-118900_php-elephant-logo-svg-hd-png-download.png");
+    width: 180px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 4px;
+    border-radius: 20px;
+    animation-name: php;
+    animation-duration: 4.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    position: absolute;
+    animation-delay: 1.1s;
+
+}
+#onion{
+    background-image: url("img//onion.png");
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 4px;
+    animation-name: onion;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    position: absolute;
+    animation-delay: 1.3s;
+    background-color: slategrey;
+
+}
+#apple{
+    background-image: url("img//tenor.gif");
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 4px;
+    animation-name: apple;
+    animation-duration: 5.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    position: absolute;
+    animation-delay: 1.5s;
+    border-radius: 50%;
+
+}
+#window{
+    background-image: url("img//Windows_logo_-_2012_(dark_blue).png");
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 4px;
+    animation-name: windows;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function:linear;
+    animation-iteration-count:1 ;
+    position: absolute;
+    animation-delay: 1.7s;
+
+}
+#java{
+    background-image: url("img//logo-java-runtime-environment-programming-language-runtime-system-oracle-thumbnail.jpg");
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    animation-name: java;
+    animation-duration: 6.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    position: absolute;
+    animation-delay: 1.9s;
+
+}
+#angular{
+    background-image: url("img//the_A_gif-1c1149415fb6c5d83c38989f169d7630.gif");
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 2px;
+    animation-name: angular;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    position: absolute;
+    animation-delay: 2.1s;
+
+   
+}
+#node{
+    background-image: url("img//download (3).png");
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 3px;
+    animation-name: node;
+    animation-duration: 7.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1 ;
+    position: absolute;
+    animation-delay: 2.3s;  
+}
+#jquery{
+    background-image: url("img//imgbin-jquery-web-development-ajax-event-php-ajax-3VsUk04FvFf0jvNPXUeACp0yG_t.jpg");
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 3px;
+    animation-name: jquery;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1 ;
+    position: absolute;
+    animation-delay: 2.5s;  
+}
+#python{
+    background-image: url("img//31-312064_programming-icon-png-python-logo-512-transparent-png.png");
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 3px;
+    animation-name: python;
+    animation-duration: 8.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1 ;
+    position: absolute;
+    animation-delay: 2.7s;  
+}
+#rails{
+    background-image: url("img//imgbin-ruby-on-rails-logo-software-framework-unicorn-ruby-S6hbz4ydgBDF0U3kjzyeCHgWv.jpg");
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 3px;
+    animation-name: rails;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1 ;
+    position: absolute;
+    animation-delay: 2.9s;  
+}
+#android{
+    background-image: url("img//android-logo-0.png");
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 3px;
+    animation-name: android;
+    animation-duration: 9.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1 ;
+    position: absolute;
+    animation-delay: 3.1s;  
+}
+
+
+@keyframes html {
+    0%   {background-color:red; left:40px; top:0px;}
+  25%  {background-color:yellow; left:0px; top:550px;}
+  50%  {background-color:blue; left:1250px; top:550px;}
+  75%  {background-color:green; left:1250px; top:0px;}
+  100% {background-color:red; left:423px; top:129px;}
+}
+@keyframes css{
+    0%   {background-color:red; left:40px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:red; left:625px; top:120px;}
+}
+@keyframes js{
+    0%   {background-color:red; left:40px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1250px; top:550px;}
+    75%  {background-color:green; left:1250px; top:0px;}
+    100% {background-color:red; left:830px; top:115px;}
+}
+@keyframes php{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1180px; top:550px;}
+    75%  {background-color:green; left:1180px; top:0px;}
+    100% {background-color:red; left:180px; top:270px;}
+}
+@keyframes onion{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1250px; top:550px;}
+    75%  {background-color:green; left:1250px; top:0px;}
+    100% {background-color:red; left:830px; top:289px;}
+}
+@keyframes apple{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1250px; top:550px;}
+    75%  {background-color:green; left:1250px; top:0px;}
+    100% {background-color:red; left:1040px; top:285px;}
+}
+@keyframes windows{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:white; left:1010px; top:440px;}
+}
+@keyframes java{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:red; left:1013px; top:123px;}
+}
+@keyframes angular{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1250px; top:550px;}
+    75%  {background-color:green; left:1250px; top:0px;}
+    100% {background-color:red; left:210px; top:452px;}
+}
+@keyframes node{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:red; left:800px; top:450px;}
+}
+@keyframes jquery{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:red; left:200px; top:120px;}
+}
+@keyframes python{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:red; left:615px; top:450px;}
+}
+@keyframes rails{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:red; left:610px; top:290px;}
+}
+@keyframes android{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:550px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:1200px; top:0px;}
+    100% {background-color:wheat; left:400px; top:451px;}
+}
+
+
+
+
+
+
+
+
+
+
